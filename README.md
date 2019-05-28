@@ -1,26 +1,17 @@
-
-
-<div style="text-align: center;">
-cppcheckでMISRA 2012をチェックする方法
-</div>
-<br>
-
-# 初めに
+# cppcheckでMISRA 2012をチェックする方法
 cppcheckでは不完全ではありますが、[misra-c 2012のチェック](http://cppcheck.sourceforge.net/misra.php)が可能です。
 vscode等に組み込むことで手元で静的解析が可能です。
 
+このプロジェクトを使用すると、VSCodeでMISRA-C 2012のチェックをかけることができます。
+
 # setup
-
-
 ## clone
 ```
 $ git clone --recursive https://github.com/tkashi-github/MISRA-C_Check.git
 ```
 
-
-
 ## cppcheckのビルド
-gccを利用します。windowsの方はWSLが使用可能な状態にしてください。
+WSL + gccを利用します。WSLが使用可能な状態にしてください。
 
 Visual Studio Codeを使用した場合、以下の手順でmakeします。
 
@@ -34,7 +25,7 @@ Visual Studio Codeを使用した場合、以下の手順でmakeします。
   ```
 
 ## vscode
- * VSCodeのワークスペースの.vscodeフォルダにmisra_check/tasks.jsonをコピー
+ * VSCodeのワークスペースの.vscodeフォルダにmisra_check/tasks.jsonをコピー。他のプロジェクトにgit subomodule addした場合はcommandのパスを適宜書き換えてください。
  ```
     "version": "2.0.0",
 	"tasks": [
@@ -47,7 +38,7 @@ Visual Studio Codeを使用した場合、以下の手順でmakeします。
 	]
  ```
  
- * VSCodeのkeybindings.jsonに以下を追加
+ * VSCodeのkeybindings.jsonに以下を追加。もしくはキーボードショートカットから”workbench.action.tasks.runTask”で検索して追加
  ```
     {
         "key": "shift+alt+m",
