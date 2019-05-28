@@ -1,3 +1,3 @@
-[submodule "static-analyze\\CppCheck"]
-	path = static-analyze\\CppCheck
+[submodule "static-analyze/CppCheck"]
+	path = static-analyze/CppCheck
 	url = https://github.com/danmar/cppcheck
