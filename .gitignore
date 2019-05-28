@@ -1,0 +1,5 @@
+static-analyze/build
+static-analyze/CMakeFiles
+static-analyze/CMakeCache.txt
+static-analyze/cmake_install.cmake
+.vscode/ipch
