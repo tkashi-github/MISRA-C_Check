@@ -4,7 +4,16 @@ vscode等に組み込むことで手元で静的解析が可能です。
 
 このプロジェクトを使用すると、VSCodeでMISRA-C 2012のチェックをかけることができます。
 
+
+# environment
+OS:Windows 10
+others:VSCode, WSL, python
+
 # setup
+## python
+https://www.python.jp/ からインストーラをダウンロードしてインストールします。
+”Add to PATH”にチェック入れるのを忘れずに。
+
 ## clone
 ```
 $ git clone --recursive https://github.com/tkashi-github/MISRA-C_Check.git
