@@ -41,89 +41,115 @@ https://www.python.jp/ からインストーラをダウンロードしてイン
 # 実行
 VSCで*.cを開いた状態でAlt+Shift+mを押すと解析が実行されます。
 ```
-> Executing task in folder MISRA-C_Check: D:\WorkSpace\MISRA-C_Check\static-analyze\misra_chk.bat D:\WorkSpace\MISRA-C_Check\static-analyze d:\WorkSpace\MISRA-C_Check\target\sample.c <
+> Executing task in folder MISRA-C_Check: D:\Workspace\MISRA-C_Check\static-analyze\misra_chk.bat D:\Workspace\MISRA-C_Check\static-analyze d:\Workspace\MISRA-C_Check\target\sample.c <
 
 
-d:\WorkSpace\MISRA-C_Check>wsl /mnt/d/WorkSpace/MISRA-C_Check/static-analyze/Cppcheck/cppcheck --dump /mnt/d/WorkSpace/MISRA-C_Check/target/sample.c
-Checking /mnt/d/WorkSpace/MISRA-C_Check/target/sample.c ...
-Checking /mnt/d/WorkSpace/MISRA-C_Check/target/sample.c: WIN_TEST...
+d:\Workspace\MISRA-C_Check>D:\Workspace\MISRA-C_Check\static-analyze\CppCheck\cppcheck.exe --dump d:\Workspace\MISRA-C_Check\target\sample.c
+Checking d:\Workspace\MISRA-C_Check\target\sample.c ...
+Checking d:\Workspace\MISRA-C_Check\target\sample.c: WIN_TEST...
 
-d:\WorkSpace\MISRA-C_Check>python D:\WorkSpace\MISRA-C_Check\static-analyze\Cppcheck\addons\misra.py --rule-texts=D:\WorkSpace\MISRA-C_Check\static-analyze\misra2012-rule.txt d:\WorkSpace\MISRA-C_Check\target\sample.c.dump
-Checking d:\WorkSpace\MISRA-C_Check\target\sample.c.dump...
-Checking d:\WorkSpace\MISRA-C_Check\target\sample.c.dump, config ""...
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:369]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.2]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:378]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.2]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:207]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.3]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:228]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.3]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:210]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:230]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:273]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:287]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:294]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:306]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:318]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:363]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:88]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-11.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:273]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:287]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:294]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:175]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-15.5]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:61]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:64]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:66]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:158]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:213]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:233]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:274]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:276]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:281]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:283]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:288]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:290]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:295]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:297]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:342]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:348]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:43]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-21.6]
-Checking d:\WorkSpace\MISRA-C_Check\target\sample.c.dump, config "WIN_TEST"...
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:378]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.2]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:369]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.2]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:207]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.3]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:228]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-5.3]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:210]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:230]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:273]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:287]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:294]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:306]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:318]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:363]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-10.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:273]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:287]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:294]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-14.4]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:175]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-15.5]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:61]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:64]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:66]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:158]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:213]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:233]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:274]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:276]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:281]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:283]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:288]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:290]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:295]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:297]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:342]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:348]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-17.1]
-[/mnt/d/WorkSpace/MISRA-C_Check/target/sample.c:43]: (style) JP:ここにMISRA-C 2012の文を載せてください [misra-c2012-21.6]
+d:\Workspace\MISRA-C_Check>python D:\Workspace\MISRA-C_Check\static-analyze\CppCheck\addons\misra.py --rule-texts=D:\Workspace\MISRA-C_Check\static-analyze\misra2012-rule.txt d:\Workspace\MISRA-C_Check\target\sample.c.dump
+Checking d:\Workspace\MISRA-C_Check\target\sample.c.dump...
+Checking d:\Workspace\MISRA-C_Check\target\sample.c.dump, config ""...
+[d:/Workspace/MISRA-C_Check/target/sample.c:99] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1] 
+[d:/Workspace/MISRA-C_Check/target/sample.c:107] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:117] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:180] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:312] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:327] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:331] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:384] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-4.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:207] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-5.3]
+[d:/Workspace/MISRA-C_Check/target/sample.c:228] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-5.3]
+[d:/Workspace/MISRA-C_Check/target/sample.c:210] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:210] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:230] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:230] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:273] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:287] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:294] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:306] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:318] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:363] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:88] (style) JP:ここにMISRA-C 2012の文を載せてください (Advisory) [misra-c2012-11.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:179] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-11.8]
+[d:/Workspace/MISRA-C_Check/target/sample.c:273] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:287] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:294] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:175] (style) JP:ここにMISRA-C 2012の文を載せてください (Advisory) [misra-c2012-15.5]
+[d:/Workspace/MISRA-C_Check/target/sample.c:61] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:64] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:66] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:158] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:213] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:233] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:274] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:276] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:281] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:283] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:288] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:290] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:295] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:297] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:342] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:348] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:177] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.7]
+[d:/Workspace/MISRA-C_Check/target/sample.c:43] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-21.6]
+Checking d:\Workspace\MISRA-C_Check\target\sample.c.dump, config "WIN_TEST"...
+[d:/Workspace/MISRA-C_Check/target/sample.c:207] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-5.3]
+[d:/Workspace/MISRA-C_Check/target/sample.c:228] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-5.3]
+[d:/Workspace/MISRA-C_Check/target/sample.c:210] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:210] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:230] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:230] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:273] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:287] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:294] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:306] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:318] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:363] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-10.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:179] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-11.8]
+[d:/Workspace/MISRA-C_Check/target/sample.c:273] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:287] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:294] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-14.4]
+[d:/Workspace/MISRA-C_Check/target/sample.c:175] (style) JP:ここにMISRA-C 2012の文を載せてください (Advisory) [misra-c2012-15.5]
+[d:/Workspace/MISRA-C_Check/target/sample.c:61] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:64] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:66] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:158] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:213] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:233] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:274] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:276] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:281] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:283] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:288] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:290] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:295] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:297] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:342] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:348] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.1]
+[d:/Workspace/MISRA-C_Check/target/sample.c:71] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.7]
+[d:/Workspace/MISRA-C_Check/target/sample.c:177] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-17.7]
+[d:/Workspace/MISRA-C_Check/target/sample.c:43] (style) JP:ここにMISRA-C 2012の文を載せてください (Required) [misra-c2012-21.6]
 
-MISRA rule violations found: 67
+MISRA rules violations found:
+        Required: 77
+        Advisory: 3
 
+MISRA rules violated:
+        misra-c2012-4.1 (-): 8
+        misra-c2012-5.3 (-): 4
+        misra-c2012-10.4 (-): 20
+        misra-c2012-11.4 (-): 1
+        misra-c2012-11.8 (-): 2
+        misra-c2012-14.4 (-): 6
+        misra-c2012-15.5 (-): 2
+        misra-c2012-17.1 (-): 32
+        misra-c2012-17.7 (-): 3
+        misra-c2012-21.6 (-): 2
 
-d:\WorkSpace\MISRA-C_Check>del d:\WorkSpace\MISRA-C_Check\target\sample.c.dump
+d:\Workspace\MISRA-C_Check>del d:\Workspace\MISRA-C_Check\target\sample.c.dump
 
 ターミナルはタスクで再利用されます、閉じるには任意のキーを押してください。
 
