@@ -1,479 +1,320 @@
 Appendix A Summary of guidelines
-Dir 1.1
-Required
-JP:�v���O�����̏o�͂��ˑ����鏈���n��`�̓���́A����������A��������Ȃ���΂Ȃ�Ȃ�
-Dir 2.1
-Required
-JP:���ׂẴ\�[�X�t�@�C���́A�R���p�C���G���[�Ȃ��ŃR���p�C�����Ȃ���΂Ȃ�Ȃ�
-Dir 3.1
-Required
-JP:���ׂẴR�[�h�͕��������ꂽ�v���֒ǐՉ\�łȂ���΂Ȃ�Ȃ�
-Dir 4.1
-Required
-JP:���s���̏�Q�͍ŏ����ɗ}�����Ȃ���΂Ȃ�Ȃ�?(�⑫)
-Dir 4.2
-Advisory
-JP:�A�Z���u������̂��ׂĂ̎g�p�͕���������Ȃ���΂Ȃ�Ȃ�
-Dir 4.3
-Required
-JP:�A�Z���u������́A�J�v�Z��������A�u������Ȃ���΂Ȃ�Ȃ�
-Dir 4.4
-Advisory
-JP:�R�[�h�̈ꕔ���u�R�����g�A�E�g�v���Ă͂Ȃ�Ȃ�
-Dir 4.5
-Advisory
-JP:�������d�����āA�������O��Ԃɂ��鎯�ʎq�́A�\�L�㖾���łȂ���΂Ȃ�Ȃ�?(�⑫)
-Dir 4.6
-Advisory
-JP:��{�I�Ȑ��l�^�̑���ɁA�T�C�Y�ƕ����̗L��������typedef���g�p���Ȃ���΂Ȃ�Ȃ�
-Dir 4.7
-Required
-JP:�֐����G���[����Ԃ��ꍇ�́A���̃G���[���𔻒肵�Ȃ���΂Ȃ�Ȃ�
-Dir 4.8
-Advisory
-JP:�\���̂⋤�p�̂ւ̃|�C���^���|��P�ʓ��ŋt�Q�Ƃ���邱�Ƃ��Ȃ��ꍇ�A�I�u�W�F�N�g�̎����͉B����Ȃ���΂Ȃ�Ȃ�
-Dir 4.9
-Advisory
-JP:�֐��`���}�N���̑���ɁA�݊����̂���֐����g�p���Ȃ���΂Ȃ�Ȃ�
-Dir 4.1
-Required
-JP:�w�b�_�t�@�C���̓��e��������C���N���[�h����Ȃ��悤�ɒ��ӂ��Ȃ���΂Ȃ�Ȃ�
-Dir 4.11
-Required
-JP:���C�u�����֐��ɓn���l�̑Ó������m�F���Ȃ���΂Ȃ�Ȃ�
-Dir 4.12
-Required
-JP:���I�ȃ��������蓖�Ă��g�p���Ă͂Ȃ�Ȃ�
-Dir 4.13
-Advisory
-JP:���\�[�X�ɑ΂��鑀���񋟂���悤�ɐ݌v���ꂽ�֐��́A�K�؂ȏ����ŌĂяo���Ȃ���΂Ȃ�Ȃ�?(�⑫)
-Rule 1.1
-Required
-JP:�v���O�����͕W��C�̍\���Ɛ���̈ᔽ���܂܂�Ă��Ȃ����̂Ƃ��A�����n�̖|����E�𒴂��Ă͂Ȃ�Ȃ�
-Rule 1.2
-Advisory
-JP:����g�����g�p���Ă͂����Ȃ�?(�⑫)
-Rule 1.3
-Required
-JP:����`�̓���܂��̓N���e�B�J���Ȗ��K��̓���̔����������Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 2.1
-Required
-JP:�v���W�F�N�g�͓��B�s�\�ȃR�[�h���܂�ł͂Ȃ�Ȃ�
-Rule 2.2
-Required
-JP:�f�b�h�R�[�h�������Ă͂Ȃ�Ȃ�
-Rule 2.3
-Advisory
-JP:�v���W�F�N�g�͖��g�p�̌^�錾���܂�ł͂Ȃ�Ȃ�
-Rule 2.4
-Advisory
-JP:�v���W�F�N�g�͖��g�p�̃^�O�錾���܂�ł͂Ȃ�Ȃ�
-Rule 2.5
-Advisory
-JP:�v���W�F�N�g�͖��g�p�̃}�N���錾���܂�ł͂Ȃ�Ȃ�
-Rule 2.6
-Advisory
-JP:�v���W�F�N�g�͖��g�p�̃��x���錾���܂�ł͂Ȃ�Ȃ�
-Rule 2.7
-Advisory
-JP:�֐����ɖ��g�p�̃p�����[�^�������Ă͂Ȃ�Ȃ�
-Rule 3.1
-Required
-JP:�u/*�v��u//�v�Ƃ��������̕��т��R�����g���Ŏg�p���Ă͂Ȃ�Ȃ�
-Rule 3.2
-Required
-JP:���C���X�v���C�V���O��//�R�����g�Ŏg�p���Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 4.1
-Required
-JP:8�i��16�i�̋t�ΐ��\�L�͏I�������Ȃ���΂Ȃ�Ȃ�
-Rule 4.2
-Advisory
-JP:3�����\�L���g�p���Ă͂Ȃ�Ȃ�
-Rule 5.1
-Required
-JP:�O�����ʎq�͈قȂ������̂ɂ��Ȃ���΂Ȃ�Ȃ�
-Rule 5.2
-Required
-JP:�����X�R�[�v�Ɩ��O��ԂŐ錾���ꂽ���ʎq�͈قȂ������̂ɂ��Ȃ���΂Ȃ�Ȃ�
-Rule 5.3
-Required
-JP:�����̃X�R�[�v�Ő錾���ꂽ���ʎq�́A�O���̃X�R�[�v�Ő錾���ꂽ���ʎq���B���Ă͂Ȃ�Ȃ�
-Rule 5.4
-Required
-JP:�}�N�����ʎq�͈قȂ������̂ɂ��Ȃ���΂Ȃ�Ȃ�
-Rule 5.5
-Required
-JP:���ʎq�̓}�N�����Ƃ͈قȂ������̂ɂ��Ȃ���΂Ȃ�Ȃ�
-Rule 5.6
-Required
-JP:typedef���͈�ӂ̎��ʎq�łȂ���΂Ȃ�Ȃ�
-Rule 5.7
-Required
-JP:tag���͈�ӂ̎��ʎq�łȂ���΂Ȃ�Ȃ�
-Rule 5.8
-Required
-JP:�O�������P�[�W�����I�u�W�F�N�g��֐����`���鎯�ʎq�͈�ӂłȂ���΂Ȃ�Ȃ�
-Rule 5.9
-Advisory
-JP:���������P�[�W�����I�u�W�F�N�g��֐����`���鎯�ʎq����ӂłȂ���΂Ȃ�Ȃ�
-Rule 6.1
-Required
-JP:�r�b�g�t�B�[���h�͓K�؂Ȍ^�Ő錾����Ȃ���΂Ȃ�Ȃ�?(�⑫)
-Rule 6.2
-Required
-JP:�r�b�g�t�B�[���h�Ŗ��t����ꂽ�V���O���r�b�g�͕����t���̌^�ł����Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 7.1
-Required
-JP:8�i�萔���g�p���Ă͂Ȃ�Ȃ�
-Rule 7.2
-Required
-JP:�����Ȃ��̌^�ŕ\������Ă��邷�ׂĂ̐����萔�ɂ́uu�v�܂��́uU�v�ڔ����K�p���Ȃ���΂Ȃ�Ȃ�
-Rule 7.3
-Required
-JP:�������� "l"�̓��e�����̐ڔ���Ɏg�p���Ă͂Ȃ�Ȃ�
-Rule 7.4
-Required
-JP:�I�u�W�F�N�g�̌^���uconst�C�������ւ̃|�C���^�v�łȂ�����A�����񃊃e�������I�u�W�F�N�g�ɑ�����Ă͂Ȃ�Ȃ�
-Rule 8.1
-Required
-JP:�^�͖����I�Ɏw�肳��Ȃ���΂Ȃ�Ȃ�
-Rule 8.2
-Required
-JP:�֐��^�͖��O�t���p�����[�^�����v���g�^�C�v�̌`���łȂ���΂Ȃ�Ȃ�
-Rule 8.3
-Required
-JP:�I�u�W�F�N�g�܂��͊֐��̂��ׂĂ̐錾�́A�������O�ƌ^�C���q���g�p���Ȃ���΂Ȃ�Ȃ�
-Rule 8.4
-Required
-JP:�O�������P�[�W�����I�u�W�F�N�g��֐�����`�����ꍇ�A���̓K������錾�͉��łȂ���΂Ȃ�Ȃ�
-Rule 8.5
-Required
-JP:�O���I�u�W�F�N�g�܂��͊֐���1�����̐����ň�x�����錾����Ȃ���΂Ȃ�Ȃ�
-Rule 8.6
-Required
-JP:�O�������P�[�W�������ʎq�́A1�̊O����`�������Ȃ���΂Ȃ�Ȃ�
-Rule 8.7
-Advisory
-JP:�|��P�ʓ��ł̎Q�Ƃ�����1�ł���ꍇ�A�֐���I�u�W�F�N�g�͊O�������P�[�W���g�p���Ē�`���Ă͂����Ȃ�
-Rule 8.8
-Required
-JP:�ÓI�L���N���X�w��q�́A���������P�[�W�����I�u�W�F�N�g����ъ֐��̂��ׂĂ̐錾�Ŏg�p����Ȃ���΂Ȃ�Ȃ�
-Rule 8.9
-Advisory
-JP:���ʎq���P��̊֐����ɂ̂ݏo������ꍇ�A���̃I�u�W�F�N�g�̓u���b�N�X�R�[�v�Œ�`����Ȃ���΂Ȃ�Ȃ�
-Rule 8.1
-Required
-JP:�C�����C���֐��́A�ÓI�L����N���X���g�p���Đ錾����Ȃ���΂Ȃ�Ȃ�?(�⑫)
-Rule 8.11
-Advisory
-JP:�O�������P�[�W�����z���錾����ꍇ�A���̑傫���͖����I�Ɏw�肳��Ȃ���΂Ȃ�Ȃ�
-Rule 8.12
-Required
-JP:�񋓎q���X�g���ł́A�ÖٓI�Ɏw�肳�ꂽ�񋓒萔�̒l�͈�ӂłȂ���΂Ȃ�Ȃ�
-Rule 8.13
-Advisory
-JP:�|�C���^�͉\�Ȍ���const�C���^���w���Ȃ���΂Ȃ�Ȃ�
-Rule 8.14
-Required
-JP:restrict�^�C���q���g�p���Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 9.1
-Mandatory
-JP:�����L������Ԃ����I�u�W�F�N�g�̒l��l���ݒ肳���O�ɓǂ�ł͂����Ȃ�
-Rule 9.2
-Required
-JP:�W���̂܂��͋��p�̂̏������q�͔g���ʂň͂܂�Ȃ���΂Ȃ�Ȃ�
-Rule 9.3
-Required
-JP:�z��͕����I�ɏ��������Ă͂Ȃ�Ȃ�
-Rule 9.4
-Required
-JP:�I�u�W�F�N�g�̗v�f�͕����񏉊�������Ă͂Ȃ�Ȃ�
-Rule 9.5
-Required
-JP:�w�肳�ꂽ�������q���z��I�u�W�F�N�g�̏������Ɏg�p����Ă���ꍇ�A�z��̃T�C�Y�͖����I�Ɏw�肳��Ȃ���΂Ȃ�Ȃ�
-Rule 10.1
-Required
-JP:�I�y�����h���s�K�؂Ȏ����I�Ȍ^�ł����Ă͂Ȃ�Ȃ�
-Rule 10.2
-Required
-JP:�����I�ɕ����^�̎��́A���Z�ƌ��Z����ŕs�K�؂Ɏg�p���Ă͂Ȃ�Ȃ�
-Rule 10.3
-Required
-JP:���̒l�͂�苷�������I�Ȍ^�܂��͈قȂ�����I�Ȍ^���ނŃI�u�W�F�N�g�ɑ�����Ă͂Ȃ�Ȃ�
-Rule 10.4
-Required
-JP:�ʏ�̎Z�p�ϊ������s����鉉�Z�q�̗����̃I�y�����h�͓��������I�Ȍ^���ނ������Ȃ���΂Ȃ�Ȃ�
-Rule 10.5
-Advisory
-JP:���̒l�͕s�K�؂Ȏ����I�Ȍ^�ɃL���X�g���Ă͂Ȃ�Ȃ�
-Rule 10.6
-Required
-JP:�������̒l���A���L�������I�Ȍ^�̃I�u�W�F�N�g�ɑ�����Ă͂Ȃ�Ȃ�
-Rule 10.7
-Required
-JP:���������ʏ�̎Z�p�ϊ������s����鉉�Z�q��1�̃I�y�����h�Ƃ��Ďg�p����Ă���ꍇ�A��������̃I�y�����h�́A���L�������I�Ȍ^�������Ă͂����Ȃ�
-Rule 10.8
-Required
-JP:�������̒l�͈قȂ�����I�Ȍ^���ނ���L�������I�Ȍ^�ɃL���X�g���Ă͂Ȃ�Ȃ�
-Rule 11.1
-Required
-JP:�ϊ��͊֐��ւ̃|�C���^�ƔC�ӂ̑��̌^�Ƃ̊Ԃōs���Ă͂Ȃ�Ȃ�
-Rule 11.2
-Required
-JP:�ϊ��͕s���S�Ȍ^�ւ̃|�C���^�ƔC�ӂ̑��̌^�Ƃ̊Ԃōs���Ă͂Ȃ�Ȃ�
-Rule 11.3
-Required
-JP:�L���X�g�̓I�u�W�F�N�g�^�ւ̃|�C���^�^�ƕʂ̃I�u�W�F�N�g�^�ւ̃|�C���^�Ƃ̊Ԃōs���Ă͂Ȃ�Ȃ�
-Rule 11.4
-Advisory
-JP:�ϊ��̓I�u�W�F�N�g�ւ̃|�C���^�Ɛ����^�Ƃ̊Ԃōs���Ă͂����Ȃ�
-Rule 11.5
-Advisory
-JP:�ϊ���void�ւ̃|�C���^����I�u�W�F�N�g�ւ̃|�C���^�ɍs���Ă͂����Ȃ�
-Rule 11.6
-Required
-JP:�L���X�g��void�ւ̃|�C���^�ƎZ�p�^�Ƃ̊Ԃōs���Ă͂Ȃ�Ȃ�
-Rule 11.7
-Required
-JP:�L���X�g�̓I�u�W�F�N�g�ւ̃|�C���^�Ɣ񐮐��Z�p�^�Ƃ̊Ԃōs���Ă͂Ȃ�Ȃ�
-Rule 11.8
-Required
-JP:�L���X�g�̓|�C���^�ɂ���Ďw�����ꂽ�^����C�ӂ�const�܂���volatile�C�����폜���Ă͂Ȃ�Ȃ�
-Rule 11.9
-Required
-JP:�}�N��NULL�͐����k���|�C���^�萔�̌`���̂݋�����Ȃ���΂Ȃ�Ȃ�
-Rule 12.1
-Advisory
-JP:���̒��̉��Z�q�̗D�揇�ʂ͖����łȂ���΂Ȃ�Ȃ�
-Rule 12.2
-Required
-JP:�V�t�g���Z�q�̉E���̃I�y�����h�́A0�ȏ�ŁA�����̃I�y�����h�̎����I�Ȍ^�̃r�b�g�������łȂ���΂Ȃ�Ȃ�
-Rule 12.3
-Advisory
-JP:�R���}���Z�q���g�p���Ă͂Ȃ�Ȃ�
-Rule 12.4
-Advisory
-JP:�萔���̕]���́A�����Ȃ������̃��b�v�A���E���h�������N�����Ă͂Ȃ�Ȃ�
-Rule 13.1
-Required
-JP:���������X�g�͉i���I�ȕ���p���܂�ł͂Ȃ�Ȃ�?(�⑫)
-Rule 13.2
-Required
-JP:���̒l�Ƃ��̉i���I�ȕ���p�́A���ׂĂ̋����ꂽ�]�����œ����łȂ���΂Ȃ�Ȃ�
-Rule 13.3
-Advisory
-JP:�C���N�������g�܂��̓f�N�������g���Z�q���܂ފ��S�Ȏ��̓C���N�������g�܂��̓f�N�������g���Z�q�ɋN��������̈ȊO�A���̐��ݓI�ȕ���p�������Ă͂Ȃ�Ȃ�
-Rule 13.4
-Advisory
-JP:������Z�q�̌��ʂ��g�p���Ă͂Ȃ�Ȃ�
-Rule 13.5
-Required
-JP:&&��||�̘_�����Z�q�̉E���̃I�y�����h�́A�i���I�ȕ���p���܂�ł͂Ȃ�Ȃ�
-Rule 13.6
-Mandatory
-JP:sizeof���Z�q�̃I�y�����h�͐��ݓI�ȕ���p�������Ă���C�ӂ̎����܂�ł͂Ȃ�Ȃ�
-Rule 14.1
-Required
-JP:���[�v�J�E���^�́A�����I�ɕ��������_�^�������Ă͂����Ȃ�
-Rule 14.2
-Required
-JP:for���[�v�͓K���ɒ�`����Ȃ���΂Ȃ�Ȃ�
-Rule 14.3
-Required
-JP:���䎮�͕s�ςł����Ă͂Ȃ�Ȃ�
-Rule 14.4
-Required
-JP:if���̐��䎮�ƌJ��Ԃ����̐��䎮�́A�����I��Boolean�^�������Ȃ���΂Ȃ�Ȃ�
-Rule 15.1
-Advisory
-JP:goto�����g�p���Ă͂Ȃ�Ȃ�
-Rule 15.2
-Required
-JP:goto���́A�����֐��̂����Ő錾���ꂽ���x���ɃW�����v���Ȃ���΂Ȃ�Ȃ�
-Rule 15.3
-Required
-JP:goto���ɂ���ĎQ�Ƃ���郉�x���́A�����u���b�N���A�܂���goto�����͂ޔC�ӂ̃u���b�N���Ő錾����Ȃ���΂Ȃ�Ȃ�
-Rule 15.4
-Advisory
-JP:�J��Ԃ������I�����邽�߂Ɏg�p�����u���[�N���܂���goto����1�ȉ��łȂ���΂Ȃ�Ȃ�
-Rule 15.5
-Advisory
-JP:�֐��́A���̍Ō��1�����̏o���������Ȃ���΂Ȃ�Ȃ�
-Rule 15.6
-Required
-JP:��������I�𕶂̖{�̂́A�������łȂ���΂Ȃ�Ȃ�
-Rule 15.7
-Required
-JP:���ׂĂ�if ... else if�\���́Aelse���ŏI�����Ȃ���΂Ȃ�Ȃ�
-Rule 16.1
-Required
-JP:���ׂĂ�switch���͓K���ɒ�`����Ȃ���΂Ȃ�Ȃ�
-Rule 16.2
-Required
-JP:�X�C�b�`�̃��x���́A����𒼐ړ���Ă��镡������switch���̖{�̂ł���ꍇ�ɂ̂ݎg�p����Ȃ���΂Ȃ�Ȃ�
-Rule 16.3
-Required
-JP:��������break���ŁA���ׂẴX�C�b�`�߂��I�����Ȃ���΂Ȃ�Ȃ�
-Rule 16.4
-Required
-JP:���ׂĂ�switch���́A�f�t�H���g�̃��x���������Ȃ���΂Ȃ�Ȃ�
-Rule 16.5
-Required
-JP:�f�t�H���g�̃��x���́Aswitch���̍ŏ��܂��͍Ōア���ꂩ�̃X�C�b�`�̃��x���Ƃ��Ȃ���΂Ȃ�Ȃ�
-Rule 16.6
-Required
-JP:���ׂĂ�switch���́A���Ȃ��Ƃ�2�̃X�C�b�`�߂������Ȃ���΂Ȃ�Ȃ�
-Rule 16.7
-Required
-JP:�X�C�b�`���͎����I�Ƀu�[���^�������Ă͂����Ȃ�
-Rule 17.1
-Required
-JP:<stdarg.h>�̓��F���g�p���Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 17.2
-Required
-JP:�֐��́A���ړI�܂��͊ԐړI�ɁA�������g���Ăяo���͂����Ȃ�
-Rule 17.3
-Mandatory
-JP:�֐����ÖٓI�ɐ錾���Ă͂Ȃ�Ȃ�
-Rule 17.4
-Mandatory
-JP:void�ȊO�̖߂�l�̌^�����֐�����̂��ׂĂ̏o���͎��𔺂��������I��return���������Ȃ���΂Ȃ�Ȃ�
-Rule 17.5
-Advisory
-JP:�z��^�����悤�ɐ錾���ꂽ�p�����[�^�ɑΉ�����֐��̈����́A�v�f�̓K�؂Ȑ��������Ȃ���΂Ȃ�Ȃ�
-Rule 17.6
-Mandatory
-JP:�z��p�����[�^�̐錾�́A[ ]�̊ԂɐÓI�L�[���[�h���܂�ł͂Ȃ�Ȃ�?(�⑫)
-Rule 17.7
-Required
-JP:void�ȊO�̖߂�l�̌^�����֐����Ԃ��l�͎g�p����Ȃ���΂Ȃ�Ȃ�
-Rule 17.8
-Advisory
-JP:�֐��p�����[�^��ύX���Ă͂����Ȃ�
-Rule 18.1
-Required
-JP:�|�C���^�I�y�����h�̎Z�p�ɋN������|�C���^�͂��̃|�C���^�̃I�y�����h�Ɠ����z��̗v�f���������Ȃ���΂Ȃ�Ȃ�
-Rule 18.2
-Required
-JP:�|�C���^�Ԃ̌��Z�́A�����z��̗v�f�������|�C���^�ɂ̂ݓK�p����Ȃ���΂Ȃ�Ȃ�
-Rule 18.3
-Required
-JP:�֌W���Z�q>�A>=�A<��<=�́A����炪�����I�u�W�F�N�g�����w���Ă���ꍇ�������āA�|�C���^�^�̃I�u�W�F�N�g�ɓK�p���Ă͂Ȃ�Ȃ�
-Rule 18.4
-Advisory
-JP:+�A - �A+=�� - =���Z�q�́A�|�C���^�^�̎��ɓK�p���Ă͂����Ȃ�
-Rule 18.5
-Advisory
-JP:2�i�K�𒴂������q�̃|�C���^��錾���Ă͂����Ȃ�
-Rule 18.6
-Required
-JP:�����L��������I�u�W�F�N�g�̃A�h���X���A���̃I�u�W�F�N�g�����݂��Ȃ��Ȃ���������݂���ʂ̃I�u�W�F�N�g�ɃR�s�[���Ă͂Ȃ�Ȃ�
-Rule 18.7
-Required
-JP:�t���L�V�u���z�񃁃��o��錾���Ă͂����Ȃ�
-Rule 18.8
-Required
-JP:�ϒ��z��^���g�p���Ă͂Ȃ�Ȃ�
-Rule 19.1
-Mandatory
-JP:�I�u�W�F�N�g�́A�d���I�u�W�F�N�g�ɑ�����邢�̓R�s�[����Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 19.2
-Advisory
-JP:union�L�[���[�h���g�p���Ă͂Ȃ�Ȃ�
-Rule 20.1
-Advisory
-JP:#include�w�߂ɑ΂��ẮA���̑O�����w�߂�R�����g�݂̂���s������
-Rule 20.2
-Required
-JP:�u'�v�A�u"�v�܂��́u\�v�����A�u/*�v�܂��́u//�v�����񂪃w�b�_�t�@�C�����ɑ��݂��Ă͂Ȃ�Ȃ�
-Rule 20.3
-Required
-JP:#include�w�߂̌�ɂ�<filename>������܂���"filename"������̂ǂ��炩�������Ȃ��Ă͂Ȃ�Ȃ�
-Rule 20.4
-Required
-JP:�}�N���́A�L�[���[�h�Ɠ������O�Œ�`���Ă͂����Ȃ�
-Rule 20.5
-Advisory
-JP:#undef���g�p���Ă͂Ȃ�Ȃ�
-Rule 20.6
-Required
-JP:�O�����w�߂̂悤�Ɍ����鎚��́A�}�N���������ɑ��݂��Ă͂Ȃ�Ȃ�
-Rule 20.7
-Required
-JP:�}�N���p�����[�^�̓W�J�̌��ʐ����鎮�́A���ʂň͂܂�Ȃ���΂Ȃ�Ȃ�
-Rule 20.8
-Required
-JP:#if�O�����w�߂܂���#elif�O�����w�߂̐��䎮�́A0�܂���1�ɕ]������Ȃ���΂Ȃ�Ȃ�
-Rule 20.9
-Required
-JP:#if�O�����w�߂܂���#elif�O�����w�߂̐��䎮�Ŏg�p����邷�ׂĂ̎��ʎq�́A�]���̑O��#define����Ă��Ȃ���΂Ȃ�Ȃ�
-Rule 20.1
-Advisory
-JP:#�O�������Z�q��##�O�������Z�q���g�p���Ă͂Ȃ�Ȃ�
-Rule 20.11
-Required
-JP:#���Z�q�̒���ɑ����}�N���p�����[�^�̒����##���Z�q�𑱂��Ă͂����Ȃ�
-Rule 20.12
-Required
-JP:����ɐ�̃}�N���u���̕ϊ����̂��̂ł���A#���Z�q�܂���##���Z�q�̃I�y�����h�Ƃ��Ďg�p�����}�N���p�����[�^�́A�����̉��Z�q�̃I�y�����h�Ƃ��Ďg�p����Ȃ���΂Ȃ�Ȃ�
-Rule 20.13
-Required
-JP:���̍ŏ��̎��傪#�ł���s�́A�L���ȑO�����w�߂łȂ���΂Ȃ�Ȃ�
-Rule 20.14
-Required
-JP:���ׂĂ�#else�A#elif ��#endif �O�����w�߂́A�֘A����#if�A#ifdef�A�܂���#ifndef�w�߂Ɠ����t�@�C���ɂȂ���΂Ȃ�Ȃ�
-Rule 21.1
-Required
-JP:�\��ςݎ��ʎq��\��ς݃}�N�����ɑ΂���#define��#undef���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.2
-Required
-JP:�\��ςݎ��ʎq�܂��̓}�N������錾���Ă͂Ȃ�Ȃ�
-Rule 21.3
-Required
-JP:<stdlib.h>�̃��������蓖�ĂƉ���̋@�\���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.4
-Required
-JP:�W���w�b�_�t�@�C��<setjmp.h>���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.5
-Required
-JP:�W���w�b�_�t�@�C��<signal.h>���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.6
-Required
-JP:�W�����C�u�����̓���/�o�͂̋@�\���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.7
-Required
-JP:<stdlib.h>��atof�֐��Aatoi�֐��Aatol�֐���atoll�֐����g�p���Ă͂Ȃ�Ȃ�
-Rule 21.8
-Required
-JP:<stdlib.h>�̃��C�u�����֐� abort�Aexit�Agetenv ������system���g�p���Ă͂Ȃ�Ȃ�
-Rule 21.9
-Required
-JP:<stdlib.h>�̃��C�u�����֐� bsearch��qsort���g�p���Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 21.1
-Required
-JP:�W�����C�u������time��date�֐����g�p���Ă͂����Ȃ�?(�⑫)
-Rule 21.11
-Required
-JP:�W���w�b�_�t�@�C��<tgmath.h>���g�p���Ă͂Ȃ�Ȃ�?(�⑫)
-Rule 21.12
-Advisory
-JP:<fenv.h>�̗�O�����@�\���g�p���Ă͂����Ȃ�
-Rule 22.1
-Required
-JP:�W�����C�u�����֐���p���ē��I�ɓ���ꂽ���ׂẴ��\�[�X�́A�����I�ɉ������Ȃ���΂Ȃ�Ȃ�
-Rule 22.2
-Mandatory
-JP:�������u���b�N�́A���ꂪ�W�����C�u�����֐���p���Ċ��蓖�Ă��Ă����ꍇ�ɂ̂݁A�������Ȃ���΂Ȃ�Ȃ�
-Rule 22.3
-Required
-JP:�����t�@�C�����A�����ɈقȂ�X�g���[���ŁA�ǎ��A�N�Z�X�Ə����݃A�N�Z�X�̂��߂ɃI�[�v�����Ă͂����Ȃ�
-Rule 22.4
-Mandatory
-JP:�ǂݎ���p�Ƃ��ĊJ���ꂽ�X�g���[���ɏ����������Ƃ��Ă͂����Ȃ�
-Rule 22.5
-Mandatory
-JP:FILE�I�u�W�F�N�g�ւ̃|�C���^���t�Q�Ƃ��Ă͂Ȃ�Ȃ�
-Rule 22.6
-Mandatory
-JP:�֘A�����X�g���[��������ꂽ��ɁAFILE�ւ̃|�C���^�̒l���g�p���Ă͂Ȃ�Ȃ�
+Dir 1.1 Required
+JP:プログラムの出力が依存する処理系定義の動作は、文書化され、理解されなければならない
+Dir 2.1 Required
+JP:すべてのソースファイルは、コンパイルエラーなしでコンパイルしなければならない
+Dir 3.1 Required
+JP:すべてのコードは文書化された要件へ追跡可能でなければならない
+Dir 4.1 Required
+JP:実行時の障害は最小限に抑えられなければならない?(補足)
+Dir 4.2 Advisory
+JP:アセンブリ言語のすべての使用は文書化されなければならない
+Dir 4.3 Required
+JP:アセンブリ言語は、カプセル化され、隔離されなければならない
+Dir 4.4 Advisory
+JP:コードの一部を「コメントアウト」してはならない
+Dir 4.5 Advisory
+JP:可視性が重複して、同じ名前空間にある識別子は、表記上明白でなければならない?(補足)
+Dir 4.6 Advisory
+JP:基本的な数値型の代わりに、サイズと符号の有無を示すtypedefを使用しなければならない
+Dir 4.7 Required
+JP:関数がエラー情報を返す場合は、そのエラー情報を判定しなければならない
+Dir 4.8 Advisory
+JP:構造体や共用体へのポインタが翻訳単位内で逆参照されることがない場合、オブジェクトの実装は隠されなければならない
+Dir 4.9 Advisory
+JP:関数形式マクロの代わりに、互換性のある関数を使用しなければならない
+Dir 4.10 Required
+JP:ヘッダファイルの内容が複数回インクルードされないように注意しなければならない
+Dir 4.11 Required
+JP:ライブラリ関数に渡す値の妥当性を確認しなければならない
+Dir 4.12 Required
+JP:動的なメモリ割り当てを使用してはならない
+Dir 4.13 Advisory
+JP:リソースに対する操作を提供するように設計された関数は、適切な順序で呼び出さなければならない?(補足)
+Rule 1.1 Required
+JP:プログラムは標準Cの構文と制約の違反が含まれていないものとし、処理系の翻訳限界を超えてはならない
+Rule 1.2 Advisory
+JP:言語拡張を使用してはいけない
+Rule 1.3 Required
+JP:未定義の動作またはクリティカルな未規定の動作の発生があってはならない?(補足)
+Rule 2.1 Required
+JP:プロジェクトは到達不能なコードを含んではならない
+Rule 2.2 Required
+JP:デッドコードがあってはならない
+Rule 2.3 Advisory
+JP:プロジェクトは未使用の型宣言を含んではならない
+Rule 2.4 Advisory
+JP:プロジェクトは未使用のタグ宣言を含んではならない
+Rule 2.5 Advisory
+JP:プロジェクトは未使用のマクロ宣言を含んではならない
+Rule 2.6 Advisory
+JP:プロジェクトは未使用のラベル宣言を含んではならない
+Rule 2.7 Advisory
+JP:関数内に未使用のパラメータがあってはならない
+Rule 3.1 Required
+JP:「/*」や「//」という文字の並びをコメント内で使用してはならない
+Rule 3.2 Required
+JP:ラインスプライシングは//コメントで使用してはならない?(補足)
+Rule 4.1 Required
+JP:8進と16進の逆斜線表記は終了させなければならない
+Rule 4.2 Advisory
+JP:3文字表記を使用してはならない
+Rule 5.1 Required
+JP:外部識別子は異なったものにしなければならない
+Rule 5.2 Required
+JP:同じスコープと名前空間で宣言された識別子は異なったものにしなければならない
+Rule 5.3 Required
+JP:内側のスコープで宣言された識別子は、外側のスコープで宣言された識別子を隠してはならない
+Rule 5.4 Required
+JP:マクロ識別子は異なったものにしなければならない
+Rule 5.5 Required
+JP:識別子はマクロ名とは異なったものにしなければならない
+Rule 5.6 Required
+JP:typedef名は一意の識別子でなければならない
+Rule 5.7 Required
+JP:tag名は一意の識別子でなければならない
+Rule 5.8 Required
+JP:外部リンケージを持つオブジェクトや関数を定義する識別子は一意でなければならない
+Rule 5.9 Advisory
+JP:内部リンケージを持つオブジェクトや関数を定義する識別子が一意でなければならない
+Rule 6.1 Required
+JP:ビットフィールドは適切な型で宣言されなければならない?(補足)
+Rule 6.2 Required
+JP:ビットフィールドで名付けられたシングルビットは符号付きの型であってはならない?(補足)
+Rule 7.1 Required
+JP:8進定数を使用してはならない
+Rule 7.2 Required
+JP:符号なしの型で表現されているすべての整数定数には「u」または「U」接尾語を適用しなければならない
+Rule 7.3 Required
+JP:小文字の "l"はリテラルの接尾語に使用してはならない
+Rule 7.4 Required
+JP:オブジェクトの型が「const修飾文字へのポインタ」でない限り、文字列リテラルをオブジェクトに代入してはならない
+Rule 8.1 Required
+JP:型は明示的に指定されなければならない
+Rule 8.2 Required
+JP:関数型は名前付きパラメータを持つプロトタイプの形式でなければならない
+Rule 8.3 Required
+JP:オブジェクトまたは関数のすべての宣言は、同じ名前と型修飾子を使用しなければならない
+Rule 8.4 Required
+JP:外部リンケージを持つオブジェクトや関数が定義される場合、その適合する宣言は可視でなければならない
+Rule 8.5 Required
+JP:外部オブジェクトまたは関数は1つだけの生存で一度だけ宣言されなければならない
+Rule 8.6 Required
+JP:外部リンケージを持つ識別子は、1つの外部定義を持たなければならない
+Rule 8.7 Advisory
+JP:翻訳単位内での参照がただ1つである場合、関数やオブジェクトは外部リンケージを使用して定義してはいけない
+Rule 8.8 Required
+JP:静的記憶クラス指定子は、内部リンケージを持つオブジェクトおよび関数のすべての宣言で使用されなければならない
+Rule 8.9 Advisory
+JP:識別子が単一の関数内にのみ出現する場合、そのオブジェクトはブロックスコープで定義されなければならない
+Rule 8.10 Required
+JP:インライン関数は、静的記憶域クラスを使用して宣言されなければならない?(補足)
+Rule 8.11 Advisory
+JP:外部リンケージを持つ配列を宣言する場合、その大きさは明示的に指定されなければならない
+Rule 8.12 Required
+JP:列挙子リスト内では、暗黙的に指定された列挙定数の値は一意でなければならない
+Rule 8.13 Advisory
+JP:ポインタは可能な限りconst修飾型を指さなければならない
+Rule 8.14 Required
+JP:restrict型修飾子を使用してはならない?(補足)
+Rule 9.1 Mandatory
+JP:自動記憶域期間を持つオブジェクトの値を値が設定される前に読んではいけない
+Rule 9.2 Required
+JP:集成体または共用体の初期化子は波括弧で囲まれなければならない
+Rule 9.3 Required
+JP:配列は部分的に初期化してはならない
+Rule 9.4 Required
+JP:オブジェクトの要素は複数回初期化されてはならない
+Rule 9.5 Required
+JP:指定された初期化子が配列オブジェクトの初期化に使用されている場合、配列のサイズは明示的に指定されなければならない
+Rule 10.1 Required
+JP:オペランドが不適切な実質的な型であってはならない
+Rule 10.2 Required
+JP:実質的に文字型の式は、加算と減算操作で不適切に使用してはならない
+Rule 10.3 Required
+JP:式の値はより狭い実質的な型または異なる実質的な型分類でオブジェクトに代入してはならない
+Rule 10.4 Required
+JP:通常の算術変換が実行される演算子の両方のオペランドは同じ実質的な型分類を持たなければならない
+Rule 10.5 Advisory
+JP:式の値は不適切な実質的な型にキャストしてはならない
+Rule 10.6 Required
+JP:複合式の値を、より広い実質的な型のオブジェクトに代入してはならない
+Rule 10.7 Required
+JP:複合式が通常の算術変換が実行される演算子の1つのオペランドとして使用されている場合、もう一方のオペランドは、より広い実質的な型を持ってはいけない
+Rule 10.8 Required
+JP:複合式の値は異なる実質的な型分類やより広い実質的な型にキャストしてはならない
+Rule 11.1 Required
+JP:変換は関数へのポインタと任意の他の型との間で行われてはならない
+Rule 11.2 Required
+JP:変換は不完全な型へのポインタと任意の他の型との間で行われてはならない
+Rule 11.3 Required
+JP:キャストはオブジェクト型へのポインタ型と別のオブジェクト型へのポインタとの間で行われてはならない
+Rule 11.4 Advisory
+JP:変換はオブジェクトへのポインタと整数型との間で行われてはいけない
+Rule 11.5 Advisory
+JP:変換はvoidへのポインタからオブジェクトへのポインタに行われてはいけない
+Rule 11.6 Required
+JP:キャストはvoidへのポインタと算術型との間で行われてはならない
+Rule 11.7 Required
+JP:キャストはオブジェクトへのポインタと非整数算術型との間で行われてはならない
+Rule 11.8 Required
+JP:キャストはポインタによって指さされた型から任意のconstまたはvolatile修飾を削除してはならない
+Rule 11.9 Required
+JP:マクロNULLは整数ヌルポインタ定数の形式のみ許されなければならない
+Rule 12.1 Advisory
+JP:式の中の演算子の優先順位は明白でなければならない
+Rule 12.2 Required
+JP:シフト演算子の右側のオペランドは、0以上で、左側のオペランドの実質的な型のビット幅未満でなければならない
+Rule 12.3 Advisory
+JP:コンマ演算子を使用してはならない
+Rule 12.4 Advisory
+JP:定数式の評価は、符号なし整数のラップアラウンドを引き起こしてはならない
+Rule 13.1 Required
+JP:初期化リストは永続的な副作用を含んではならない
+Rule 13.2 Required
+JP:式の値とその永続的な副作用は、すべての許可された評価順で同じでなければならない
+Rule 13.3 Advisory
+JP:インクリメントまたはデクリメント演算子を含む完全な式はインクリメントまたはデクリメント演算子に起因するもの以外、他の潜在的な副作用があってはならない
+Rule 13.4 Advisory
+JP:代入演算子の結果を使用してはならない
+Rule 13.5 Required
+JP:&&や||の論理演算子の右側のオペランドは、永続的な副作用を含んではならない
+Rule 13.6 Mandatory
+JP:sizeof演算子のオペランドは潜在的な副作用を持っている任意の式を含んではならない
+Rule 14.1 Required
+JP:ループカウンタは、実質的に浮動小数点型を持ってはいけない
+Rule 14.2 Required
+JP:forループは適正に定義されなければならない
+Rule 14.3 Required
+JP:制御式は不変であってはならない
+Rule 14.4 Required
+JP:if文の制御式と繰り返し文の制御式は、実質的にBoolean型を持たなければならない
+Rule 15.1 Advisory
+JP:goto文を使用してはならない
+Rule 15.2 Required
+JP:goto文は、同じ関数のより後ろで宣言されたラベルにジャンプしなければならない
+Rule 15.3 Required
+JP:goto文によって参照されるラベルは、同じブロック内、またはgoto文を囲む任意のブロック内で宣言されなければならない
+Rule 15.4 Advisory
+JP:繰り返し文を終了するために使用されるブレーク文またはgoto文は1個以下でなければならない
+Rule 15.5 Advisory
+JP:関数は、その最後に1つだけの出口を持たなけらばならない
+Rule 15.6 Required
+JP:反復文や選択文の本体は、複合文でなければならない
+Rule 15.7 Required
+JP:すべてのif ... else if構文は、else文で終了しなければならない
+Rule 16.1 Required
+JP:すべてのswitch文は適正に定義されなければならない
+Rule 16.2 Required
+JP:スイッチのラベルは、それを直接内包している複合文がswitch文の本体である場合にのみ使用されなければならない
+Rule 16.3 Required
+JP:無条件のbreak文で、すべてのスイッチ節を終了しなければならない
+Rule 16.4 Required
+JP:すべてのswitch文は、デフォルトのラベルをもたなければならない
+Rule 16.5 Required
+JP:デフォルトのラベルは、switch文の最初または最後いずれかのスイッチのラベルとしなければならない
+Rule 16.6 Required
+JP:すべてのswitch文は、少なくとも2つのスイッチ節を持たなければならない
+Rule 16.7 Required
+JP:スイッチ式は実質的にブール型を持ってはいけない
+Rule 17.1 Required
+JP:<stdarg.h>の特色を使用してはならない?(補足)
+Rule 17.2 Required
+JP:関数は、直接的または間接的に、自分自身を呼び出しはいけない
+Rule 17.3 Mandatory
+JP:関数を暗黙的に宣言してはならない
+Rule 17.4 Mandatory
+JP:void以外の戻り値の型を持つ関数からのすべての出口は式を伴った明示的なreturn文を持たなければならない
+Rule 17.5 Advisory
+JP:配列型を持つように宣言されたパラメータに対応する関数の引数は、要素の適切な数を持たなければならない
+Rule 17.6 Mandatory
+JP:配列パラメータの宣言は、[ ]の間に静的キーワードを含んではならない?(補足)
+Rule 17.7 Required
+JP:void以外の戻り値の型を持つ関数が返す値は使用されなければならない
+Rule 17.8 Advisory
+JP:関数パラメータを変更してはいけない
+Rule 18.1 Required
+JP:ポインタオペランドの算術に起因するポインタはそのポインタのオペランドと同じ配列の要素を処理しなければならない
+Rule 18.2 Required
+JP:ポインタ間の減算は、同じ配列の要素を扱うポインタにのみ適用されなければならない
+Rule 18.3 Required
+JP:関係演算子>、>=、<と<=は、それらが同じオブジェクト内を指している場合を除いて、ポインタ型のオブジェクトに適用してはならない
+Rule 18.4 Advisory
+JP:+、 - 、+=と - =演算子は、ポインタ型の式に適用してはいけない
+Rule 18.5 Advisory
+JP:2段階を超える入れ子のポインタを宣言してはいけない
+Rule 18.6 Required
+JP:自動記憶域を持つオブジェクトのアドレスを、そのオブジェクトが存在しなくなった後も存在する別のオブジェクトにコピーしてはならない
+Rule 18.7 Required
+JP:フレキシブル配列メンバを宣言してはいけない
+Rule 18.8 Required
+JP:可変長配列型を使用してはならない
+Rule 19.1 Mandatory
+JP:オブジェクトは、重複オブジェクトに代入あるいはコピーされてはならない?(補足)
+Rule 19.2 Advisory
+JP:unionキーワードを使用してはならない
+Rule 20.1 Advisory
+JP:#include指令に対しては、他の前処理指令やコメントのみが先行しうる
+Rule 20.2 Required
+JP:「'」、「"」または「\」文字、「/*」または「//」文字列がヘッダファイル名に存在してはならない
+Rule 20.3 Required
+JP:#include指令の後には<filename>文字列または"filename"文字列のどちらかが続かなくてはならない
+Rule 20.4 Required
+JP:マクロは、キーワードと同じ名前で定義してはいけない
+Rule 20.5 Advisory
+JP:#undefを使用してはならない
+Rule 20.6 Required
+JP:前処理指令のように見える字句は、マクロ引数内に存在してはならない
+Rule 20.7 Required
+JP:マクロパラメータの展開の結果生じる式は、括弧で囲まれなければならない
+Rule 20.8 Required
+JP:#if前処理指令または#elif前処理指令の制御式は、0または1に評価されなければならない
+Rule 20.9 Required
+JP:#if前処理指令または#elif前処理指令の制御式で使用されるすべての識別子は、評価の前に#defineされていなければならない
+Rule 20.10 Advisory
+JP:#前処理演算子と##前処理演算子を使用してはならない
+Rule 20.11 Required
+JP:#演算子の直後に続くマクロパラメータの直後に##演算子を続けてはいけない
+Rule 20.12 Required
+JP:さらに先のマクロ置換の変換そのものである、#演算子または##演算子のオペランドとして使用されるマクロパラメータは、これらの演算子のオペランドとして使用されなければならない
+Rule 20.13 Required
+JP:その最初の字句が#である行は、有効な前処理指令でなければならない
+Rule 20.14 Required
+JP:すべての#else、#elif と#endif 前処理指令は、関連する#if、#ifdef、または#ifndef指令と同じファイルになければならない
+Rule 21.1 Required 
+JP:予約済み識別子や予約済みマクロ名に対して#defineや#undefを使用してはならない
+Rule 21.2 Required
+JP:予約済み識別子またはマクロ名を宣言してはならない
+Rule 21.3 Required
+JP:<stdlib.h>のメモリ割り当てと解放の機能を使用してはならない
+Rule 21.4 Required
+JP:標準ヘッダファイル<setjmp.h>を使用してはならない
+Rule 21.5 Required
+JP:標準ヘッダファイル<signal.h>を使用してはならない
+Rule 21.6 Required
+JP:標準ライブラリの入力/出力の機能を使用してはならない
+Rule 21.7 Required
+JP:<stdlib.h>のatof関数、atoi関数、atol関数とatoll関数を使用してはならない
+Rule 21.8 Required
+JP:<stdlib.h>のライブラリ関数 abort、exit、getenv そしてsystemを使用してはならない
+Rule 21.9 Required
+JP:<stdlib.h>のライブラリ関数 bsearchとqsortを使用してはならない?(補足)
+Rule 21.1 Required
+JP:標準ライブラリのtimeとdate関数を使用してはいけない?(補足)
+Rule 21.11 Required
+JP:標準ヘッダファイル<tgmath.h>を使用してはならない?(補足)
+Rule 21.12 Advisory
+JP:<fenv.h>の例外処理機能を使用してはいけない
+Rule 22.1 Required
+JP:標準ライブラリ関数を用いて動的に得られたすべてのリソースは、明示的に解放されなければならない
+Rule 22.2 Mandatory
+JP:メモリブロックは、それが標準ライブラリ関数を用いて割り当てられていた場合にのみ、解放されなければならない
+Rule 22.3 Required
+JP:同じファイルを、同時に異なるストリームで、読取りアクセスと書込みアクセスのためにオープンしてはいけない
+Rule 22.4 Mandatory
+JP:読み取り専用として開かれたストリームに書き込もうとしてはいけない
+Rule 22.5 Mandatory
+JP:FILEオブジェクトへのポインタを逆参照してはならない
+Rule 22.6 Mandatory
+JP:関連したストリームが閉じられた後に、FILEへのポインタの値を使用してはならない
 
