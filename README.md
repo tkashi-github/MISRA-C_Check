@@ -7,31 +7,13 @@ vscode等に組み込むことで手元で静的解析が可能です。
 
 # environment
 OS:Windows 10
-others:VSCode, WSL, python
+others:VSCode, python
 
 # setup
 ## python
 https://www.python.jp/ からインストーラをダウンロードしてインストールします。
 ”Add to PATH”にチェック入れるのを忘れずに。
 
-## clone
-```
-$ git clone --recursive https://github.com/tkashi-github/MISRA-C_Check.git
-```
-
-## cppcheckのビルド
-WSL + gccを利用します。WSLが使用可能な状態にしてください。
-
-Visual Studio Codeを使用した場合、以下の手順でmakeします。
-
-* misra_check.code-workspaceを開く
-* Ctrl+shift+@で新しいターミナルを開く
-* 以下のコマンドを実行
-  ```
-  $ cd static-analyze/CppCheck
-  $ git checkout -B 1.87 refs/tags/1.87
-  $ wsl make
-  ```
 
 ## vscode
  * VSCodeのワークスペースの.vscodeフォルダにmisra_check/tasks.jsonをコピー。他のプロジェクトにgit subomodule addした場合はcommandのパスを適宜書き換えてください。
@@ -154,28 +136,9 @@ d:\WorkSpace\MISRA-C_Check>del d:\WorkSpace\MISRA-C_Check\target\sample.c.dump
 
 購入したらmisra2012-rule.txtを書き換えてください。
 
-
-# misra.pyがエラーを吐く場合
-sys.setrecursionlimit(20000)を追加
-
 # LICENSE
  * GPL v3
 
 # using Libraries
 * cppcheck (https://github.com/danmar/cppcheck)
   > GPL v3 (static-analyze/COPYING)
-
-# memo
-* git submoduleするとき
-```
-$ git submodule add https://github.com/danmar/cppcheck static-analyze\CppCheck
-Cloning into 'D:/WorkSpace/MISRA-C_Check/static-analyze\CppCheck'...
-remote: Enumerating objects: 6, done.
-remote: Counting objects: 100% (6/6), done.
-remote: Compressing objects: 100% (6/6), done.
-remote: Total 114002 (delta 0), reused 2 (delta 0), pack-reused 113996
-Receiving objects: 100% (114002/114002), 78.13 MiB | 9.64 MiB/s, done.
-Resolving deltas: 100% (90170/90170), done.
-warning: LF will be replaced by CRLF in .gitmodules.
-The file will have its original line endings in your working directory
-```
